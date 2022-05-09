@@ -47,7 +47,7 @@ void WheelsControl::LineTrace(Hsv curr_hsv) {
   */
 
   int8_t base_power = 50;
-  float target_v = 10;
+  float target_v = 50;
 
   float kp = 0.5;
   float mv = (curr_hsv.v - target_v) * kp;
