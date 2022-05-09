@@ -46,7 +46,7 @@ void WheelsControl::LineTrace(Hsv curr_hsv) {
   int8_t left_power = static_cast<int8_t>(base_power - p - i - d);
   */
 
-  int8_t base_power = 10;
+  int8_t base_power = 50;
   float target_v = 10;
 
   float kp = 0.5;
